@@ -1,0 +1,59 @@
+/* navbar css */
+#navbar{
+    background-color: blue;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+h1{
+    text-size-adjust: 90px;
+    text-align: center;
+    padding: 0px;
+    
+}
+/* appbar css */
+#appbar{
+
+    background-color: indigo;
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* #appbar ul ol{
+    display: inline;
+  widows: 100%;
+padding: 5px;
+border: 1px solid blue;
+background-color: yellow;
+} */
+
+ol{
+    float: left;
+}
+ol a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ol a:hover {
+    background-color: #111;
+}
+#footer{
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ background-color: indigo;
+ width: 100%;
+ height: 30px;
+ margin: 5px;
+
+}
